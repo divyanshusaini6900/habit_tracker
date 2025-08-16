@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
+import 'providers/habit_provider.dart';
+import 'screens/home_screen.dart';
 
 void main() async {
   // making sure everything is initialized before app starts
